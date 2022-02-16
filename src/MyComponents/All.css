@@ -1,0 +1,10 @@
+/* For displaying the add todo form and search result side by side */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    width : 100%;
+}
+.grid-child{
+    margin: 30px;
+}
